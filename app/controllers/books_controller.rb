@@ -72,3 +72,8 @@ class BooksController < ApplicationController
       params.require(:book).permit(:title, :author, :genre, :string, :year, :price)
     end
 end
+
+#Validations 
+class Book< ApplicationRecord
+  validates :title, presence: true
+end

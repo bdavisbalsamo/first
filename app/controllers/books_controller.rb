@@ -72,3 +72,5 @@ class BooksController < ApplicationController
       params.require(:book).permit(:title, :author, :genre, :string, :year, :price)
     end
 end
+
+

@@ -1,2 +1,3 @@
 class Book < ApplicationRecord
-end
+    validates :title, presence: true
+  end

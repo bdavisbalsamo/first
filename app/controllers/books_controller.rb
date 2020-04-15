@@ -73,7 +73,4 @@ class BooksController < ApplicationController
     end
 end
 
-#Validations 
-class Book< ApplicationRecord
-  validates :title, presence: true
-end
+
